@@ -1,0 +1,34 @@
+{
+  "name": "react-redux-go",
+  "version": "0.0.0",
+  "description": "",
+  "author": "",
+  "license": "",
+  "main": "",
+  "engine": {
+    "node": ">=4.5.0",
+    "npm": "^3.0.0"
+  },
+  "scripts": {
+    "start": "better-npm-run start",
+    "dev": "better-npm-run dev"
+  },
+  "betterScripts": {
+    "dev": {
+      "command": "nodemon ",
+      "env": {
+        "NODE_ENV": "development",
+        "DEBUG": "app:*"
+      }
+    },
+    "start": {
+      "command": "node ",
+      "env": {
+        "DEBUG": "app:*"
+      }
+    }
+  },
+  "dependencies": {
+
+  }
+}
